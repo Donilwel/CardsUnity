@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{FB06C08E-2FEA-D268-A670-D897BC5805DD}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CardAsset.cs">
+    <Files>
+      <File FileName="Assets/Scripts/CardAsset.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CardGame.cs" />
+      <File FileName="Assets/Scripts/CardLayout.cs" />
+      <File FileName="Assets/Scripts/CardRank.cs" />
+      <File FileName="Assets/Scripts/CardSuit.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CardView.cs" />
+      <File FileName="Assets/Scripts/CardInstance.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CardsUnity" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1494c83a-9adc-4c5b-a94f-a3542f292276" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
