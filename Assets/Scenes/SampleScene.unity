@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 209749797}
   - component: {fileID: 209749798}
   m_Layer: 0
-  m_Name: Player1Layout
+  m_Name: Player1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -152,7 +152,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 756059421}
+  m_Father: {fileID: 1611971730}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -211,7 +211,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.044010334, g: 0.4056604, b: 0.19567007, a: 0}
+  m_BackGroundColor: {r: 0.1954432, g: 0.6792453, b: 0.23874393, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -299,8 +299,6 @@ Transform:
   - {fileID: 1774776470}
   - {fileID: 1256157870}
   - {fileID: 1661889470}
-  - {fileID: 209749797}
-  - {fileID: 1967837133}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1256157869
@@ -314,7 +312,7 @@ GameObject:
   - component: {fileID: 1256157870}
   - component: {fileID: 1256157871}
   m_Layer: 0
-  m_Name: DiscardLayout
+  m_Name: Discard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -355,6 +353,39 @@ MonoBehaviour:
   offset: {x: 0, y: 0.2}
   faceUp: 0
   playerLayout: 0
+--- !u!1 &1611971729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1611971730}
+  m_Layer: 0
+  m_Name: Players
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1611971730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611971729}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1967837133}
+  - {fileID: 209749797}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1661889469
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,7 +397,7 @@ GameObject:
   - component: {fileID: 1661889470}
   - component: {fileID: 1661889471}
   m_Layer: 0
-  m_Name: CenterLayout
+  m_Name: Center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -507,7 +538,7 @@ GameObject:
   - component: {fileID: 1774776470}
   - component: {fileID: 1774776471}
   m_Layer: 0
-  m_Name: DeckLayout
+  m_Name: Deck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -559,7 +590,7 @@ GameObject:
   - component: {fileID: 1967837133}
   - component: {fileID: 1967837134}
   m_Layer: 0
-  m_Name: Player2Layout
+  m_Name: Player2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -577,7 +608,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 756059421}
+  m_Father: {fileID: 1611971730}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -607,3 +638,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 1717697548}
   - {fileID: 756059421}
+  - {fileID: 1611971730}
